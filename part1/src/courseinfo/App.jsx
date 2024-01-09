@@ -1,9 +1,5 @@
 import { useState } from 'react';
 
-const Display = ({ counter }) => <div>{counter}</div>
-
-const Button = ({ onSmash, text }) => <button onClick={onSmash}>{text}</button>
-
 const Header = (props) => {
   return (
     <div>
@@ -11,7 +7,6 @@ const Header = (props) => {
     </div>
   )
 }
-
 
 const Content = (props) => {
   return (
